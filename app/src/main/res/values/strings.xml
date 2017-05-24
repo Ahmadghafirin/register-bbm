@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IdCard</string>
+    <string name="john_doe">John Doe</string>
+    <string name="posts">POSTS</string>
+    <string name="followers">FOLLOWERS</string>
+    <string name="following">FOLLOWING</string>
+    <string name="follow">Follow</string>
+</resources>

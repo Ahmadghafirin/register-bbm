@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00a3e6"
+        android:orientation="vertical">
+
+        <ImageView
+            android:onClick="show"
+            android:id="@+id/iv_bbm"
+            android:layout_width="220dp"
+            android:layout_height="155dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:srcCompat="@drawable/bbm"
+            tools:layout_editor_absoluteY="92dp" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="290dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:background="#ffffff"
+            android:hint="Name"
+            android:paddingLeft="5dp"
+            android:inputType="textCapWords"
+            android:textColorHint="#000000" />
+
+        <View
+            android:layout_gravity="center"
+            android:layout_width="290dp"
+            android:layout_height="1dp"
+            android:background="#000000"/>
+
+        <EditText
+            android:paddingLeft="5dp"
+            android:id="@+id/et_email"
+            android:layout_width="290dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#000000" />
+
+        <View
+            android:layout_gravity="center"
+            android:layout_width="290dp"
+            android:layout_height="1dp"
+            android:background="#000000"/>
+
+        <EditText
+            android:paddingLeft="5dp"
+            android:id="@+id/et_password"
+            android:layout_width="290dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#000000" />
+
+        <View
+            android:layout_gravity="center"
+            android:layout_width="290dp"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:gravity="center"
+            android:text="Dengan mengklik Sing Up Anda setuju dengan Ketentuan Layanan dan Kebijakan Privasi"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/bt_singUp"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#1861ad"
+            android:onClick="submit"
+            android:text="Sing Up"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</LinearLayout>
